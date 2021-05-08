@@ -7,7 +7,7 @@ import Banner from './Banner'
 
 export default class MovieApp extends Component {
     static defaultProps = {
-        baseURL: 'http://www.omdbapi.com/?t=', // Typically the API Key would live in a dot env file
+        baseURL: 'https://www.omdbapi.com/?t=', // Typically the API Key would live in a dot env file
         apiKey: '&type=movie&apikey=367a6bed',
     }
 
