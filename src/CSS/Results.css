@@ -1,0 +1,39 @@
+.Results-movie {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-color: #eee;
+    max-width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.Results-movie .Results-info {
+    padding: 1rem;
+}
+.Results-info button {
+    padding: 1rem;
+    font-weight: bold;
+}
+.Results-title {
+    font-size: 1.5rem;
+    color: #333;
+}
+.Results-info h5 {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media (max-width: 900px) {
+    .Results-movie {
+        flex-direction: column;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .Results-movie .Results-info {
+        padding: 1rem 2rem;
+    }
+}

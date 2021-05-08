@@ -1,0 +1,21 @@
+.Nominations-movie {
+    width: 200px;
+    margin: 0 auto;
+    background-color: #eee;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,.4);
+}
+.Nominations-movie button {
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 1rem;
+    transition: all .3s ease-in-out;
+}
+.Nominations-movie button:hover {
+    background-color: red;
+    color: black;
+}

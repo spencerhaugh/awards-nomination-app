@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap&family=Bungee+Shade&display=swap');
+
+.App {
+  font-family: 'Roboto', Courier, monospace;
+  text-align: center;
+}
+button {
+  transition: scale .5 ease-in-out;
+  transition: border-radius .5 ease-in-out;
+}
+button:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  transform: scale(.98);
+}
+h1 {
+  font-family: 'Bungee Shade', Courier, monospace;
+  color: white;
+  font-size: 5rem;
+  margin: 3rem auto;
+}
+h2 {
+  font-family: 'Press Start 2P', Courier, monospace;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
