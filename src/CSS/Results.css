@@ -11,9 +11,17 @@
 .Results-movie .Results-info {
     padding: 1rem;
 }
-.Results-info button {
+.Results-info .Results-button {
     padding: 1rem;
     font-weight: bold;
+    border: 2px solid black;
+    background-color: #eee;
+}
+#nominated {
+    border: 2px solid #ccc;
+    transform: scale(1);
+    cursor: initial;
+    border-radius: 0px;
 }
 .Results-title {
     font-size: 1.5rem;

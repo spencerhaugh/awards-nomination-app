@@ -2,7 +2,7 @@
 
 Live Site: [Nomination App!](https://silly-benz-d7b4f7.netlify.app/)  
 
-This App is built with React and calls on the OMDB API to search for movies titles to add to a list of nominations.  
+This App is built with React and deployed via Netlify, that calls on the OMDB API to search for movies titles to add to a list of nominations.  
 You can add and remove nominated movies from the list. You cannot add a movie that has already been added.  
 Only movies are returned from the API call, series and television programs are not returned.  
 The App is completely responsive and looks great on any size screen.  

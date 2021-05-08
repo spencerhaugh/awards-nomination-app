@@ -4,10 +4,6 @@
   font-family: 'Roboto', Courier, monospace;
   text-align: center;
 }
-button {
-  transition: scale .5 ease-in-out;
-  transition: border-radius .5 ease-in-out;
-}
 button:hover {
   cursor: pointer;
   border-radius: 5px;

@@ -20,7 +20,7 @@ export default class Results extends Component {
                     <h2 className='Results-title'>{ this.props.movie.Title }</h2>
                     <h5>Year: { this.props.movie.Year } </h5><h5>Rated: { this.props.movie.Rated }</h5>
                     <p>{ this.props.movie.Plot }</p>
-                    { this.props.nominated ? <button className='Results-button nominated' disabled>Nominated!</button> : <button onClick={ this.handleClick }>Nominate!</button> }
+                    { this.props.nominated ? <button className='Results-button' id='nominated' disabled>Nominated!</button> : <button className='Results-button' onClick={ this.handleClick }>Nominate!</button> }
                 </div>
             </div>
         )
