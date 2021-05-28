@@ -58,15 +58,17 @@ export default class MovieApp extends Component {
             nominations: [ ...st.nominations, movie ],
             nominatedIds: [ ...st.nominatedIds, movie.imdbID],
             totalNominations: st.totalNominations + 1
-        }), () => { this.checkComplete() })
+        }), () => { this.checkComplete() });
+        
     };
     removeNomination(id) {
         this.setState(st => ({
             nominations: st.nominations.filter(m => m.imdbID !== id),
             nominatedIds: st.nominatedIds.filter(m => m !== id),
             totalNominations: st.totalNominations - 1
-        }), () => { this.checkComplete() })
+        }), () => { this.checkComplete() });
     };
+
     reset() {
         this.setState(st => ({
             query: '',
@@ -98,7 +100,7 @@ export default class MovieApp extends Component {
             ));
         return (
             <div className='MovieApp'>
-                <h1>Shopify Movie Nominations!</h1>
+                <h1>Make 5 Movie Nominations!</h1>
                 { this.state.nomsComplete ? 
                     <Banner reset={ this.reset }/>
                     :
